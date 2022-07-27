@@ -10,9 +10,11 @@
     <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
     <enlace href="https: //fonts.googleapis.com/css2? family= Langosta & display=swap" rel="hoja de estilo">
     <script src="https://kit.fontawesome.com/b5f4a79cb0.js" crossorigin="anonymous"></script>
-  
+    <link href="estilo.css" rel="stylesheet"/>
     <script src="App.js"></script>
-    
+    <script src="calculadora.js" type="text/javascript" ></script>
+    <script src="Display.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript" defer></script>
 </head>
 <meta charset="utf-8">
 <meta name="keywords" content="tratamientos capilares Naturales,productos Naturales,shampoo natural,aceites capilares,jabones artesanales">
@@ -20,7 +22,9 @@
 <meta name="author" content="Lina Marcela Cambindo Gonzalias">
 <meta name="robots" content="index">
 <meta name="copyright" content="Centro estetico vitality-Nissi Hair">
+<meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 </head>
+
 <body>
    
     <header>
@@ -481,7 +485,79 @@
         
     </div>
 
+<div></div>
+<div class="calculadora">
 
+
+<table>
+    <tr>
+      <td colspan="display"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td colspan="3"></td>
+      <td></td>          
+    </tr>
+    <tr>
+      <td colspan="2"></td>
+      <td></td>
+      <td></td>            
+    </tr>
+    <table>
+        <tr>
+          <td colspan="4"><button id="result"></button></td>
+        </tr>
+        <tr>
+          <td><button onclick="add('1')">1</button></td>
+          <td><button onclick="add('2')">2</button></td>
+          <td><button onclick="add('3')">3</button></td>
+          <td><button onclick="add('+')">+</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="add('4')">4</button></td>
+          <td><button onclick="add('5')">5</button></td>
+          <td><button onclick="add('6')">6</button></td>
+          <td><button onclick="add('-')">-</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="add('7')">7</button></td>
+          <td><button onclick="add('8')">8</button></td>
+          <td><button onclick="add('9')">9</button></td>
+          <td><button onclick="add('*')">*</button></td>
+        </tr>
+        <tr>
+          <td colspan="3"><button onclick="add('0')">0</button></td>
+          <td colspan="3"><button onclick="add('/')">/</button></td>          
+        </tr>
+        <tr>
+          <td colspan="2"><button onclick="del()" class="ac">AC</button></td>
+          <td><button onclick="add('.')">.</button></td>
+          <td><button onclick="calc()">=</button></td>            
+        </tr>
+      </table>
+    </body>
+</div>
+
+        
+        
+        
 
 
 

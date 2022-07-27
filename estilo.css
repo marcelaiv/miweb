@@ -908,6 +908,58 @@ margin:auto;
                                                                                                                                                                                                                                         letter-spacing: 10px;
                                                                                                                                                                                                                                         text-shadow: 2px 5px #ff3 ;
                                                                                                                                                                                                                                     }
+                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                    
+
+                                                                                                                                                                                                                                    table {
+                                                                                                                                                                                                                                        width: 100%;
+                                                                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                    button {
+                                                                                                                                                                                                                                        width: 100%;
+                                                                                                                                                                                                                                        font-size: 150%;
+                                                                                                                                                                                                                                        background-color: #6f9;
+                                                                                                                                                                                                                                        box-shadow: 5px 5px 15px 3px #289FED, -5px -5px 10px 3px #ff3;
+                                                                                                                                                                                                                                        cursor: pointer;
+                                                                                                                                                                                                                                        padding: 10px 26px;
+                                                                                                                                                                                                                                        margin: 2px;
+                                                                                                                                                                                                                                        border-radius: 32px;
+
+
+
+                                                                                                                                                                                                                                   }
+                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                    .ac {
+                                                                                                                                                                                                                                        color: red;
+                                                                                                                                                                                                                                        font-family: 'Arial Narrow';
+                                                                                                                                                                                                                                        box-shadow: 5px 5px 5px 5px #66f;
+
+
+                                                                                                                                                                                                                                    }   
+                                                                                                                                                                                                                                   button:active {
+                                                                                                                                                                                                                                    background-color: #ff3;
+
+                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                        .display{
+                                                                                                                                                                                                                                            display: flex;
+                                                                                                                                                                                                                                            
+
+                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                        
+                                                                                                                                                                                
+                                                       
+                                                                                                                                                                                                                                    
+                                                                                                                                                                            
+                                                                                                                                                                                                                                 
+
+
+
 
 
                                                                                                                                                                                                             
